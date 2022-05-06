@@ -5,6 +5,10 @@
     list-style: none;
     font-family: 'roboto', sans-serif;
 }
+body{
+    background-color: black;
+}
+
 .resume-contents{
     min-height: 100vh;
     width: 80%;
@@ -42,7 +46,7 @@
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
