@@ -4,6 +4,10 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'roboto', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
 }
 body{
     background-color: rgba(49, 108, 175, 0.863);
