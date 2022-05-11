@@ -18,6 +18,10 @@ body{
     background:url(img/Fundo01.jpg);
     
     
+
+}
+body{
+    background-color: rgba(49, 108, 175, 0.863);
 }
 
 .resume-contents{
@@ -32,12 +36,17 @@ body{
     grid-column: span 2;
     height: 100%;
     background-color: #0f083a7c;
+    background-color: #0f083a;
 }
 
 .right-section{
     grid-column: span 5;
     height: 100%;
+
     background-color: #36496475;
+
+    background-color: #364964;
+
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -62,8 +71,13 @@ body{
 }
 
 .name {
+
     color: #FDB44B;
     font-size: 30px;
+
+    color: #D6DBDF;
+    font-size: 25px;
+
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -91,6 +105,10 @@ body{
     display: flex;
     align-items: center;
     padding-top: 3rem;
+}
+
+.estudante{
+ color: white;
 }
 
 .contact-info ul {
