@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexandre Silva</title>
+    <title>Portfólio | Alexandre Silva</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/retomar.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/programador.png" type="image/x-icon">
      <!-- Google font  -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,47 @@
 </head>
 
 <body>
+    <div> <input
+        id="close-menu"
+        class="close-menu"
+        type="checkbox"
+        aria-label="close-menu"
+        role="button"/>
+      <label
+        class="close-menu-label"
+        for="close-menu"
+        title="close menu"
+      ></label>
+      <div class="barra">
+        <div class="menu-centro">
+          <div class="barra-conteiner centralizador">
+            <div class="logo esquerda">
+              <a href="index.html"
+                ><img src="img/Logopit-Alexandre_2.png" alt="logo"
+              /></a>
+            </div>
+            <nav class="direita">
+              <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     <main class="resume-contents">
         <section class="left-section">
             <section class="left-section-contents">
                 <div class="profile">
                     <img class="profile-image" src="img/img.profile.jpg" alt="profile image"> 
                     <p class="name">Alexandre Silva</p>
-                    <p class="estudante">Estudante de Full-Stack</p>
+                    <p class="estudante">Desenvolvedor Front-end</p>
                 </div>
                 <div class="contact-info">
                     <p class="left-title">Contact Info</p>
-                    <ul>
+                    <ol>
                         <li><i class="fa fa-phone"></i>+55 (88) 99631-7399
                         </li>
                         <li><i class="fa fa-envelope"></i>alexandre.mit61@gmail.com
@@ -40,40 +70,36 @@
                         </li>
                         <li><i class="fa fa-instagram"></i>@_.alexandresilva
                         </li>
-                    </ul>
+                    </ol>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
-                    <ul>
+                    <ol>
                         <li><p>JavaScript</p></li>
                         <li><p>HTML5 & CSS3</p></li>
                         <li><p>Git & GitHub</p></li>
                         <li><p>Linux</p></li>
-                    </ul>
+                    </ol>
                 </div>
             </section>
         </section>
         <section class="right-section">
                 <div class="right-section-content">
                     <section class="about gap">
-                        <div class="right-title">About Me</div>
-                        <p class="about-me-contents">Olá sou Alexandre.<br>
-                        <br> Um pouco mais sobre oque estou aprendendo.
-                        <br> Quais são minhas competencias
-                    </p>
+                        <div class="title">Alexandre da Silva Rodrigues de Souza </div>
                     </section>
                 </div>
                 <section class="experience gap">
-                    <div class="right-title">Experiencia</div>
+                    <div class="right-title">Sobre min</div>
 
-                <div class="experience-contents">
+                <div class="sobremin-contents">
                         <div class="exp-left">
-                            <p class="exp-company-name">Brisanet LTDA</p>
-                            <p class="exp-time-period">2019-present</p>
+                            <p class="exp-company-name">Meu primeiro contato com Programação</p>
+                            <p class="exp-time-period">Em 2011 ainda no encino médio, participei de pequenas maratonas onde me deixou apaixonado por tecnologia. Apesar de ter gostado da área, só comecei a dar o devido foco em 2021.</p>
                         </div>
                         <div class="exp-right">
-                            <p class="exp-position">Operador de Monitoramento CFTV/GPS</p>
-                            <p class="exp-desc">Monitora os sistemas de CFTV através de câmeras e alarmes dos Escritorios e Data Center, observa e registra ocorrências para repassar ao superior imediato e elabora relatórios com as ocorrência do dia.</p>
+                            <p class="exp-position"></p>
+                            <p class="exp-desc">Hoje ainda focado nos estudos, já entendo um pouco tecnologias voltadas para o Front-end.
                         </div>
                 </div>
                 </section>
@@ -94,20 +120,20 @@
 
                     <div class="education-lafet">
                        <p class="education-school-name">DIO.ME</p>
-                       <p class="educationp-time-period">10/02/2022</p>
+                       <p class="educationp-time-period">05/02/2022</p>
                     </div>
 
                     <div classe="education-right">
-                        <p class="education-subject">Sintaxe Básica em JavaScript</p>
+                        <p class="education-subject">Introdução ao Git e ao GitHub</p>
                     </div>
 
                     <div class="education-lafet">
                         <p class="education-school-name">DIO.ME</p>
-                        <p class="educationp-time-period">05/02/2022</p>
+                        <p class="educationp-time-period">10/02/2022</p>
                     </div>
 
                      <div classe="education-right">
-                        <p class="education-subject">Introdução ao Git e ao GitHub</p>
+                        <p class="education-subject">Sintaxe Básica em JavaScript</p>
                      </div>
 
                     <div class="education-lafet">
@@ -120,7 +146,6 @@
                     </div>
                 </div>
         </section>
-                </div>
         </section>
         </section>
     </main>
